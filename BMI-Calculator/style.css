@@ -1,0 +1,32 @@
+body {
+    background-color: #212121;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    cursor: pointer;
+}
+
+#results:active {
+    border-bottom: 3px solid gray;
+    margin-bottom: 5px;
+}
+
+.guide {
+    border: 1px solid gray;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
