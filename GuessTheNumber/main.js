@@ -13,11 +13,11 @@ let numGuess = 1;
 let playGame = true;
 
 if (playGame) {
-    submit.addEventListener("click", function (e) {
-      e.preventDefault();
-      const guess = parseInt(userInput.value);
-      validateGuess(guess);
-    });
+  submit.addEventListener("click", function (e) {
+    e.preventDefault();
+    const guess = parseInt(userInput.value);
+    validateGuess(guess);
+  });
 }
 
 const validateGuess = (guess) => {
@@ -84,7 +84,7 @@ const newGame = () => {
     userInput.removeAttribute("disabled");
     submit.removeAttribute("disabled");
     startOver.removeChild(p);
-    lowOrHi.innerHTML = ""
+    lowOrHi.innerHTML = "";
     playGame = true;
   });
 };
