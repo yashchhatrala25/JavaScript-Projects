@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 3px solid;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#white {
+    background-color: white;
+}
+
+#purple {
+    background-color: purple;
+}
